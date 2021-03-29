@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body{
+    background:#00bbdd url("../../photos/at.jpeg") no-repeat center bottom/contain;
+}
+h1{
+    background-color: aqua;
+    color: navy;
+    font-family: 'M PLUS Rounded 1c',sans-serif;
+}
+h2{
+    color: navy;
+}
+
+ul{
+    list-style-type: square;
+    list-style-image: url("../../photos/mario.jpeg");
+}
+ol{
+    list-style-type: hiragana;
+}

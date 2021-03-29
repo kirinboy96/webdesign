@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    background:#00bbdd url("../../photos/at.jpeg") center bottom/cover;
+}
+h1{
+    background-color: aqua;
+    color: navy;
+    font-family: 'M PLUS Rounded 1c',sans-serif;
+}
+h2{
+    color: navy;
+}
+p{
+    color: rgba(10,130,165,.5);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    align-items: baseline;
+}
+.item{
+    background: seagreen;
+    color: #fff;
+
+}
+.container{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+}
